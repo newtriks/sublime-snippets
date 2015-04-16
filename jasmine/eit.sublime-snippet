@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+it('${1:should do something...}', () => {
+  $2
+});]]>
+	</content>
+	<tabTrigger><![CDATA[eit]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>ES6 it</description>
+</snippet>

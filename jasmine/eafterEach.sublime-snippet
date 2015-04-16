@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+afterEach(() => {
+  $1
+});]]>
+	</content>
+	<tabTrigger><![CDATA[eae]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>ES6 afterEach</description>
+</snippet>
