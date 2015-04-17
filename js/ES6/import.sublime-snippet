@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Import ${1:Module} from '${2:path}';
+]]></content>
+	<tabTrigger>import</tabTrigger>
+    <scope>source.js</scope>
+    <description>ES6 moudle import: Import Module from 'path';</description>
+</snippet>
