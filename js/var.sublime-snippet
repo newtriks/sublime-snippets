@@ -4,5 +4,5 @@ var ${1:name} = ${2:value};
 ]]></content>
 	<tabTrigger>var</tabTrigger>
     <scope>source.js</scope>
-    <description>let: var foo = 'bar';</description>
+    <description>var foo = 'bar';</description>
 </snippet>

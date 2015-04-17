@@ -2,7 +2,7 @@
 	<content><![CDATA[
 let ${1:name} = ${2:value};
 ]]></content>
-	<tabTrigger>var</tabTrigger>
+	<tabTrigger>let</tabTrigger>
     <scope>source.js</scope>
-    <description>let: var foo = 'bar';</description>
+    <description>let foo = 'bar';</description>
 </snippet>
