@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Import ${1:Module} from '${2:path}';
+import ${1:Module} from '${2:path}';
 ]]></content>
 	<tabTrigger>import</tabTrigger>
     <scope>source.js</scope>
