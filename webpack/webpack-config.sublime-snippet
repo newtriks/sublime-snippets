@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+var webpack = require('webpack');
+
+module.exports = {
+
+  // Entry point for the bundle, path and filename to main module
+  entry: './${1:entry_point}',
+
+  output: {
+    // Output directory as an absolute path
+    path: './${2:output_file_path}',
+    // Filename as relative path within output path
+    filename: '${3:output_filename}',
+    // Output path from the view of the JS/HTML
+    publicPath: '/${4:output_publicPath}/'
+  },
+
+  module: {
+    // Loader required for JSX
+    loaders: [{
+      test: /\.js\$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader'
+    }]
+  }
+
+};
+]]></content>
+	<tabTrigger>wpc</tabTrigger>
+	<scope>source.js</scope>
+	<description>Webpack: configuration file</description>
+</snippet>
