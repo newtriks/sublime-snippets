@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+renderIntoDocument(<${1:Component} />);
+]]></content>
+	<tabTrigger>ren</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: renderIntoDocument( ... )</description>
+</snippet>
