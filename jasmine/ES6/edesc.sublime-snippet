@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-describe('${1:Name of the group}', () => {
+describe('${1:Module}', () => {
   $2
 });]]>
 	</content>
